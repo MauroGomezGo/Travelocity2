@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.training.automation.tests.TravelocityHomeTest">
+        <methods>
+          <include name="exersice_1_8"/>
+          <include name="beforeSuite"/>
+          <include name="exercise_1_1"/>
+          <include name="exersice_1_2_a"/>
+          <include name="exersice_1_4"/>
+          <include name="afterSuite"/>
+          <include name="exercise_1_3"/>
+          <include name="exercise_1_67"/>
+          <include name="exersice_1_2_bcd"/>
+          <include name="exersice_1_3_a"/>
+          <include name="exersice_1_5"/>
+        </methods>
+      </class> <!-- com.training.automation.tests.TravelocityHomeTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

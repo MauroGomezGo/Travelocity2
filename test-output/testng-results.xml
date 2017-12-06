@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="71984" started-at="2017-12-06T20:43:41Z" finished-at="2017-12-06T20:44:53Z">
+    <groups>
+    </groups>
+    <test name="excercise1" duration-ms="71984" started-at="2017-12-06T20:43:41Z" finished-at="2017-12-06T20:44:53Z">
+      <class name="com.training.automation.tests.TravelocityHomeTest">
+        <test-method status="PASS" signature="beforeSuite(com.training.automation.pages.Browsers)[pri:0, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="beforeSuite" is-config="true" duration-ms="21778" started-at="2017-12-06T15:43:19Z" finished-at="2017-12-06T15:43:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="exercise_1_1(java.lang.String, java.lang.String, int, int, java.lang.String)[pri:1, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exercise_1_1" duration-ms="26812" started-at="2017-12-06T15:43:41Z" data-provider="home1" finished-at="2017-12-06T15:44:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LAS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LAX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exercise_1_1 -->
+        <test-method status="PASS" signature="exersice_1_2_a(java.lang.String)[pri:2, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exersice_1_2_a" duration-ms="108" started-at="2017-12-06T15:44:08Z" data-provider="sortValues" finished-at="2017-12-06T15:44:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Price (Lowest)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exersice_1_2_a -->
+        <test-method status="PASS" signature="exersice_1_2_a(java.lang.String)[pri:2, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exersice_1_2_a" duration-ms="96" started-at="2017-12-06T15:44:08Z" data-provider="sortValues" finished-at="2017-12-06T15:44:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Price (Highest)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exersice_1_2_a -->
+        <test-method status="PASS" signature="exersice_1_2_a(java.lang.String)[pri:2, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exersice_1_2_a" duration-ms="90" started-at="2017-12-06T15:44:08Z" data-provider="sortValues" finished-at="2017-12-06T15:44:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Duration (Shortest)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exersice_1_2_a -->
+        <test-method status="PASS" signature="exersice_1_2_a(java.lang.String)[pri:2, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exersice_1_2_a" duration-ms="84" started-at="2017-12-06T15:44:08Z" data-provider="sortValues" finished-at="2017-12-06T15:44:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Duration (Longest)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exersice_1_2_a -->
+        <test-method status="PASS" signature="exersice_1_2_a(java.lang.String)[pri:2, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exersice_1_2_a" duration-ms="94" started-at="2017-12-06T15:44:08Z" data-provider="sortValues" finished-at="2017-12-06T15:44:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Departure (Earliest)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exersice_1_2_a -->
+        <test-method status="PASS" signature="exersice_1_2_a(java.lang.String)[pri:2, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exersice_1_2_a" duration-ms="100" started-at="2017-12-06T15:44:09Z" data-provider="sortValues" finished-at="2017-12-06T15:44:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Departure (Latest)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exersice_1_2_a -->
+        <test-method status="PASS" signature="exersice_1_2_a(java.lang.String)[pri:2, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exersice_1_2_a" duration-ms="109" started-at="2017-12-06T15:44:09Z" data-provider="sortValues" finished-at="2017-12-06T15:44:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arrival (Earliest)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exersice_1_2_a -->
+        <test-method status="PASS" signature="exersice_1_2_a(java.lang.String)[pri:2, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exersice_1_2_a" duration-ms="134" started-at="2017-12-06T15:44:09Z" data-provider="sortValues" finished-at="2017-12-06T15:44:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arrival (Latest)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exersice_1_2_a -->
+        <test-method status="PASS" signature="exersice_1_2_bcd()[pri:3, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exersice_1_2_bcd" duration-ms="2115" started-at="2017-12-06T15:44:09Z" finished-at="2017-12-06T15:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exersice_1_2_bcd -->
+        <test-method status="PASS" signature="exercise_1_3(java.lang.String)[pri:4, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exercise_1_3" duration-ms="377" started-at="2017-12-06T15:44:11Z" data-provider="sortBy" finished-at="2017-12-06T15:44:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Duration (Shortest)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exercise_1_3 -->
+        <test-method status="PASS" signature="exersice_1_3_a()[pri:5, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exersice_1_3_a" duration-ms="2576" started-at="2017-12-06T15:44:11Z" finished-at="2017-12-06T15:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exersice_1_3_a -->
+        <test-method status="PASS" signature="exersice_1_4(int, java.lang.String)[pri:6, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exersice_1_4" duration-ms="465" started-at="2017-12-06T15:44:14Z" data-provider="departure" finished-at="2017-12-06T15:44:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Duration (Shortest)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exersice_1_4 -->
+        <test-method status="PASS" signature="exersice_1_5(int, java.lang.String)[pri:7, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exersice_1_5" duration-ms="21309" started-at="2017-12-06T15:44:14Z" data-provider="return" finished-at="2017-12-06T15:44:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Duration (Shortest)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exersice_1_5 -->
+        <test-method status="PASS" signature="exercise_1_67()[pri:8, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exercise_1_67" duration-ms="16796" started-at="2017-12-06T15:44:36Z" finished-at="2017-12-06T15:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exercise_1_67 -->
+        <test-method status="PASS" signature="exersice_1_8()[pri:9, instance:com.training.automation.tests.TravelocityHomeTest@1bce4f0a]" name="exersice_1_8" duration-ms="688" started-at="2017-12-06T15:44:53Z" finished-at="2017-12-06T15:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exersice_1_8 -->
+      </class> <!-- com.training.automation.tests.TravelocityHomeTest -->
+    </test> <!-- excercise1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="2">
+  <parameter name="browser"  value="CHROME"/>
+	<test name="excercise1">
+		<classes>
+			<class name="com.training.automation.tests.TravelocityHomeTest"></class>
+		</classes>
+	</test>
+</suite>
